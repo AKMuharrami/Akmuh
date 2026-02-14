@@ -43,7 +43,7 @@ export const Projects: React.FC = () => {
 
                 <div className="flex items-center space-x-4 pt-4 border-t border-dark-border">
                   {project.demoUrl && (
-                    <a href={project.demoUrl} className="flex items-center text-sm text-slate-300 hover:text-white transition-colors">
+                    <a href={project.demoUrl} target="_blank" className="flex items-center text-sm text-slate-300 hover:text-white transition-colors">
                       <ExternalLink size={16} className="mr-1" /> Live Demo
                     </a>
                   )}
