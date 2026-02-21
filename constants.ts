@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
     description: 'All option Eccomerce site, handling orders, payments, and inventory management.',
     tags: ['React', 'Tailwind', 'Gemini AI', 'api', 'Shipping api', 'Payment Gateway'],
     imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Screenshot%202026-02-14%20082522.png',
-    demoUrl: 'https://van-om-v2.vercel.app',
+    demoUrl: 'https://vanillaom.com',
     repoUrl: '#'
   }
 ];
