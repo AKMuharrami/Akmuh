@@ -18,14 +18,14 @@ export const Hero: React.FC = () => {
           {/* Right: Text Content (RTL) */}
  <div className="flex-1 text-center lg:text-right pt-4 lg:pt-0">
              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-[10px] sm:text-xs font-mono mb-6 lg:mb-8 animate-fade-in-up">
-              <span className="relative flex h-2 w-2">
+                        <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
               </span>
               متاح لفرص جديدة
             </div>
 
-            <h1 className="text-5xl lg:text-5xl font-display font-bold text-white leading-[1.1] mb-6 tracking-tight">
+           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-display font-bold text-white leading-[1.1] mb-4 lg:mb-6 tracking-tight">
               بناء <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-purple-400">
                 المستقبل الرقمي
@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
               أنا <span className="text-white font-semibold">{RESUME_DATA.name}</span>، {RESUME_DATA.title}. متخصص في الواجهات الخلفية والأمامية وقواعد البيانات والتعامل مع الكلاود والذكاء الاصطناعي. بخبرة تزيد عن 3 سنوات، متخصص في بناء المشاريع المتكاملة التي تجمع بين الهندسة المعقدة والتصميم.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-12">
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 justify-center lg:justify-start mb-8 lg:mb-12">
               <a href="#projects" className="px-8 py-4 rounded-lg bg-brand-600 hover:bg-brand-500 text-white font-medium transition-all shadow-lg shadow-brand-500/25 flex items-center gap-2 w-full sm:w-auto justify-center">
                 عرض المشاريع <ArrowLeft size={18} />
               </a>
@@ -46,11 +46,11 @@ export const Hero: React.FC = () => {
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-6 text-slate-500 border-t border-dark-border pt-8">
-               <span className="text-xs font-mono uppercase tracking-widest text-slate-600">مكدس التكنولوجيا</span>
+               <span className="text-xs font-mono uppercase tracking-widest text-slate-600">العدة</span>
                <div className="flex gap-6 text-sm font-medium">
                   <span className="hover:text-brand-400 transition-colors cursor-default">React</span>
                   <span className="hover:text-brand-400 transition-colors cursor-default">Node.js</span>
-                  <span className="hover:text-brand-400 transition-colors cursor-default">TypeScript</span>
+                  {/* <span className="hover:text-brand-400 transition-colors cursor-default">TypeScript</span> */}
                   <span className="hover:text-brand-400 transition-colors cursor-default">Neon</span>
                   <span className="hover:text-brand-400 transition-colors cursor-default">Postgres</span>
                </div>

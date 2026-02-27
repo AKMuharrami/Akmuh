@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
                <div className="flex gap-6 text-sm font-medium">
                   <span className="hover:text-brand-400 transition-colors cursor-default">React</span>
                   <span className="hover:text-brand-400 transition-colors cursor-default">Node.js</span>
-                  <span className="hover:text-brand-400 transition-colors cursor-default">TypeScript</span>
+                  {/* <span className="hover:text-brand-400 transition-colors cursor-default">TypeScript</span> */}
                   <span className="hover:text-brand-400 transition-colors cursor-default">Neon</span>
                   <span className="hover:text-brand-400 transition-colors cursor-default">Postgres</span>
                </div>
