@@ -1,17 +1,21 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Hero } from '../components/Hero';
 import { Skills } from '../components/Skills';
 import { Projects } from '../components/Projects';
 import { Experience } from '../components/Experience';
 import { ChatBot } from '../components/ChatBot';
 import { Link } from 'react-router-dom';
+import { Menu, X } from 'lucide-react';
 
 export const HomeEn: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   useEffect(() => {
     document.documentElement.lang = 'en';
     document.documentElement.dir = 'ltr';
     document.title = 'Asad Al Muharrami | Fullstack Engineer';
   }, []);
+
+   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
    <div className="min-h-screen bg-dark-bg selection:bg-brand-500/30">
@@ -22,21 +26,51 @@ export const HomeEn: React.FC = () => {
               akmuh<span className="text-brand-500">.dev</span>
             </span>
             
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex gap-8">
               <NavLink href="#">Home</NavLink>
               <NavLink href="#skills">Skills</NavLink>
               <NavLink href="#projects">Work</NavLink>
               {/* <NavLink href="#experience">Experience</NavLink> */}
               <Link to="/ar" className="text-sm font-medium text-slate-400 hover:text-white transition-colors">العربية</Link>
             </div>
-  
+    <div className="flex items-center gap-4">
             <a 
               href="https://api.whatsapp.com/send?phone=96338791"
               className="px-4 py-2 text-sm font-medium bg-white text-dark-bg rounded-full hover:bg-slate-200 transition-colors"
             >
               Contact Me
             </a>
+             {/* Mobile Menu Button */}
+            <button 
+              className="md:hidden text-slate-400 hover:text-white transition-colors"
+              onClick={toggleMenu}
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
+          </div>
+           {isMenuOpen && (
+          <div className="md:hidden bg-dark-bg/95 backdrop-blur-lg border-b border-dark-border py-6 px-6 flex flex-col gap-6 animate-fade-in-up">
+            <NavLink href="#" onClick={() => setIsMenuOpen(false)}>Home</NavLink>
+            <NavLink href="#skills" onClick={() => setIsMenuOpen(false)}>Skills</NavLink>
+            <NavLink href="#projects" onClick={() => setIsMenuOpen(false)}>Work</NavLink>
+            {/* <NavLink href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</NavLink> */}
+            <Link 
+              to="/ar" 
+              className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              العربية
+            </Link>
+            <a 
+              href="https://api.whatsapp.com/send?phone=96338791"
+              className="w-full text-center px-4 py-3 text-sm font-medium bg-white text-dark-bg rounded-lg hover:bg-slate-200 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact Me
+            </a>
+          </div>
+        )}
         </nav>
   
         <main>

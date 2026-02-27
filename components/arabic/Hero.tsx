@@ -4,7 +4,7 @@ import { RESUME_DATA } from '../../constantsAr.ts';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-dark-bg" dir="rtl">
+    <section className="relative min-h-screen flex items-center pt-24 pb-12 lg:pt-32 lg:pb-20 overflow-hidden bg-dark-bg" dir="rtl">
        {/* Technical Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
       
@@ -12,11 +12,11 @@ export const Hero: React.FC = () => {
       <div className="absolute left-0 top-0 -z-10 h-[500px] w-[500px] rounded-full bg-brand-500/10 blur-[120px]"></div>
       <div className="absolute right-0 bottom-0 -z-10 h-[500px] w-[500px] rounded-full bg-purple-500/10 blur-[120px]"></div>
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+       <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
           
           {/* Right: Text Content (RTL) */}
-          <div className="flex-1 text-center lg:text-right pt-10 lg:pt-0">
+          <div className="flex-1 text-center lg:text-right pt-4 lg:pt-0">
              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-mono mb-8 animate-fade-in-up">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
@@ -25,14 +25,14 @@ export const Hero: React.FC = () => {
               متاح لفرص جديدة
             </div>
 
-            <h1 className="text-5xl lg:text-7xl font-display font-bold text-white leading-[1.1] mb-6 tracking-tight">
+            <h1 className="text-5xl lg:text-5xl font-display font-bold text-white leading-[1.1] mb-6 tracking-tight">
               بناء <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-purple-400">
                 المستقبل الرقمي
               </span>
             </h1>
 
-            <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-400 mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
               أنا <span className="text-white font-semibold">{RESUME_DATA.name}</span>، {RESUME_DATA.title}. متخصص في الواجهات الخلفية والأمامية وقواعد البيانات والتعامل مع الكلاود والذكاء الاصطناعي. بخبرة تزيد عن 3 سنوات، متخصص في بناء المشاريع المتكاملة التي تجمع بين الهندسة المعقدة والتصميم.
             </p>
 
