@@ -16,8 +16,8 @@ export const Hero: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
           
           {/* Right: Text Content (RTL) */}
-          <div className="flex-1 text-center lg:text-right pt-4 lg:pt-0">
-             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-mono mb-8 animate-fade-in-up">
+ <div className="flex-1 text-center lg:text-right pt-4 lg:pt-0">
+             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-[10px] sm:text-xs font-mono mb-6 lg:mb-8 animate-fade-in-up">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
