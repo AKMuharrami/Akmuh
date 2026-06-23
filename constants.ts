@@ -26,20 +26,20 @@ export const SKILLS_DATA: SkillMetric[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Al Muhannad Services',
-    description: 'A Washing service app designed to accept orders and manage them..',
-    tags: ['React', 'Tailwind', 'Postgres','Database', 'Api', 'Email api'],
+    title: 'Majan Delivery',
+    description: 'Connecting Business owners directly to delivery guys without a need for a third party...',
+    tags: ['React native', 'Tailwind', 'Postgres','Database', 'ios', 'Expo'],
     imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Screenshot%202026-02-14%20072039.png',
-    demoUrl: 'https://al-muhannad.com/',
+    demoUrl: 'https://apps.apple.com/us/app/magan/id6771332795',
     repoUrl: '#'
   },
   {
     id: '2',
-    title: 'SiteMaker app',
-    description: 'Specialized App for creating advanced website designs throgh given templates.',
-    tags: ['NextJs', 'npm libraries', 'States','Postgres', 'Database', 'Vercel'],
-    imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Screenshot%202026-02-14%20073553.png',
-    demoUrl: 'http://musammim.vercel.app/',
+    title: 'Mumantij Ai',
+    description: 'Specialized App for creating advanced caption edited video shorts.',
+    tags: ['ios', 'expo', 'React Native','Postgres', 'Database', 'Vercel'],
+    imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Mosammim_1__Ai%20%281%29.png',
+    demoUrl: 'http://mumantij-ai.vercel.app/',
     repoUrl: '#'
   },
   {
