@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     title: 'Mumantij Ai',
     description: 'Specialized App for creating advanced caption edited video shorts.',
     tags: ['ios', 'expo', 'React Native','Postgres', 'Database', 'Vercel'],
-    imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Mosammim_1__ai%20%284%29.png',
+    imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Mosammim_1__%20%2827%29.png',
     demoUrl: 'http://mumantij-ai.vercel.app/',
     repoUrl: '#'
   },
