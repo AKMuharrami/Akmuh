@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     title: 'Majan Delivery',
     description: 'Connecting Business owners directly to delivery guys without a need for a third party...',
     tags: ['React native', 'Tailwind', 'Postgres','Database', 'ios', 'Expo'],
-    imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Screenshot%202026-02-14%20072039.png',
+    imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Mosammim_1__%20%2826%29.png',
     demoUrl: 'https://apps.apple.com/us/app/magan/id6771332795',
     repoUrl: '#'
   },
@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     description: 'Specialized App for creating advanced caption edited video shorts.',
     tags: ['ios', 'expo', 'React Native','Postgres', 'Database', 'Vercel'],
     imageUrl: 'https://hjrm8lbtnby37npy.public.blob.vercel-storage.com/Mosammim_1__%20%2827%29.png',
-    demoUrl: 'http://mumantij-ai.vercel.app/',
+    demoUrl: 'https://apps.apple.com/us/app/%D9%85-%D9%85-%D9%86-%D8%AA-%D8%AC-ai/id6764750498',
     repoUrl: '#'
   },
   {

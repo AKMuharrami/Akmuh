@@ -59,7 +59,7 @@ export const Skills: React.FC = () => {
             <SkillCard 
               icon={<Cpu className="text-pink-400" />} 
               title="AI & Ops" 
-              items={['Gemini API', 'Docker']} 
+              items={['Gemini API', 'Deepgram', 'deepseek']} 
             />
           </div>
         </div>
